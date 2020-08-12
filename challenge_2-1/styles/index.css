@@ -33,17 +33,13 @@ header div h2 {
     padding-bottom: 15px;
 }
 
-header div.links {
-    text-align: center;
-}
-
-header div.links a {
+header div a {
     color: #d0920e;
     font-size: 18px;
     line-height: 28px;
 
-    margin: 0px 30px;
-
+    margin: 0 30px;
+    
     text-decoration: none;
 }
 

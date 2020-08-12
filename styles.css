@@ -1,0 +1,38 @@
+/* Importando fonte diretamente no CSS */
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #000;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    padding: 32px;
+    border-bottom: 1px solid #333;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+header div {
+    text-align: center;
+}
+
+header div a {
+    color: white;
+    font-size: 18px;
+    line-height: 28px; /*Dica de usar 10px a mais que font-size*/
+    margin: 0 16px;
+    text-decoration: none;
+
+    transition: color 300ms;
+}
+
+header div a:hover {
+    color: #50FA7B;
+}
