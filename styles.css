@@ -24,11 +24,11 @@ header {
     background: rgba(0, 0, 0, 0.1);
 }
 
-header div {
+.links {
     text-align: center;
 }
 
-header div a {
+.links a {
     color: white;
     font-size: 18px;
     line-height: 28px; /*Dica de usar 10px a mais que font-size*/
@@ -38,7 +38,7 @@ header div a {
     transition: color 300ms;
 }
 
-header div a:hover {
+.links a:hover {
     color: var(--color-green);
 }
 
@@ -51,6 +51,7 @@ header div a:hover {
     border-radius: 50%;
     border: 5px solid var(--color-green);
     margin-bottom: 32px;
+    height: 300px;
 }
 
 #wrapper h1 {
@@ -79,3 +80,20 @@ header div a:hover {
 #wrapper p a {
     color: var(--color-green);
 }
+
+#links-footer a { 
+    display:inline-block;  
+}
+
+#links-footer a:after {
+    display:block;
+    content: '';
+    border-bottom: solid 1px var(--color-green);  
+    transform: scaleX(0);  
+    transition: transform 400ms ease-in-out;
+}
+
+#links-footer a:hover:after { 
+    transform: scaleX(1); 
+}
+
