@@ -81,6 +81,7 @@ header {
     color: var(--color-green);
 }
 
+/* Efeito de borda crescendo embaixo do texto */
 #links-footer a { 
     display:inline-block;  
 }
