@@ -98,3 +98,22 @@ header {
     transform: scaleX(1); 
 }
 
+/*===CARDS===*/
+
+.cards {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #7159c1;
+}
+
+.card__image-container img {
+    width: 100%;
+}
+
+.card__content,
+.card__info {
+    padding: 24px;
+}
