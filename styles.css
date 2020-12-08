@@ -144,3 +144,21 @@ header {
     position: fixed;
     top: 0;
 }
+
+.modal {
+    background-color: #fff;
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+    position: relative;
+}
+
+.modal .close-modal {
+    color: #000;
+    /* position: absolute faz ficar posição absoluta em relação ao pai (.modal)
+    quando este estiver definido como position relative*/
+    position: absolute; 
+    right: 7px;
+    top: 7px;
+    cursor: pointer;
+}
