@@ -4,6 +4,7 @@
 /* Criando variáveis */
 :root {
     --color-green: #50fa7b;
+    --color-rocket: #7159c1;
 }
 
 * {
@@ -98,15 +99,19 @@ header {
     transform: scaleX(1); 
 }
 
-/*===CARDS===*/
+/* CARDS */
 
 .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; /* Espaço entre os elementos do GRID */
+
     max-width: 800px;
     margin: 0 auto;
 }
 
 .card {
-    background-color: #7159c1;
+    background-color: var(--color-rocket);
 }
 
 .card__image-container img {
@@ -116,4 +121,26 @@ header {
 .card__content,
 .card__info {
     padding: 24px;
+}
+
+.card__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card__price {
+    background-color: var(--color-rocket);
+    filter: brightness(90%); /* Edita o brilho da cor */ 
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* MODAL */
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
 }

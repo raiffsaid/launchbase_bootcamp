@@ -20,6 +20,11 @@ div {
     text-align: center;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
+
 div img {
     height: 200px;
     width: 200px;
@@ -50,7 +55,8 @@ div ul {
 }
 
 .links {
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .links a {
