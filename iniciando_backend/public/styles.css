@@ -111,6 +111,7 @@ header {
 }
 
 .card {
+    display: grid;
     background-color: var(--color-rocket);
 }
 
@@ -126,6 +127,7 @@ header {
 .card__info {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
 .card__price {
